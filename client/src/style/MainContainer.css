@@ -1,0 +1,88 @@
+.main-container {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.section-one {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+.box {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4b00e044, #8d2de269);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4b00e047, #8d2de251); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px rgba(25, 24, 27, 0.869);
+  margin: 10px;
+}
+
+.box .task-btn {
+  width: 100px;
+  height: 30px;
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  box-shadow:  inset 5px 1px 1px #2bb5fc;
+  letter-spacing: 3px;
+}
+
+.box .task-btn:hover {
+  background: #f21f9e;
+}
+
+.earn-container {
+  background: none;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  background: none;
+  color: white;
+}
+
+h2 {
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+h3 {
+  background: none;
+  letter-spacing: 1.5px;
+}
+
+h2, span {
+  text-align: center;
+  color: white;
+}
+
+a {
+  color:#f21f9e;
+  background: none;
+  text-decoration: none;
+}
